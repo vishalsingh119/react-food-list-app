@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.main-wrapper{
+  max-width: 1140px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form > .search-bar {
+  outline: 0;
+  height: 42px;
+  width: 244px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+form > .search-bar:focus {
+  outline: 0;
+  background-color: #FFF;
+}
+
+form > .search-btn {
+  outline: 0;
+  background-color: rgba(38, 50, 56, 0.8);
+  height: 42px;
+  border: 0;
+  color: #FFF;
+  transition: background-color .4s ease;
+  border-radius: 0 4px 4px 0;
+}
+
+form > .search-btn:hover {
+  background-color: rgba(0, 150, 136, 0.8);
+}
+
+.card{
+  flex: calc(100% / 3 - 1rem);
+  margin: 0.5rem;
+}
